@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    background-color: #c9dfff;
+}
+
+nav {
+    overflow: hidden;
+    background-color: #1C3879;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav a{
+    float: right;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: solid;
+    font-weight: bold;
+    font-size: medium;
+    border-bottom: 2px solid #1C3879;
+}
+
+
+nav a:hover{
+    background: #607EAA;
+    border-bottom: 2px solid #ffffff;
+}
+
+.main{
+    padding: 16px;
+    margin-top: 50px;
+    height: 1200px;
+}
+
+
+
+.important{
+    margin: 10px;
+    text-align: center;
+    font-style: oblique;
+    font-size: large;
+}
+
+img{
+    border: 10px double #ffff;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.main-header{
+    flex: 1;
+    flex-direction: row;
+}
+
+.summary{
+    border: 5px solid #ffffff;
+    padding: 100px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+}
+
+.info img{
+    float: left;
+    position: relative;
+    top: 2px;
+}
+
+.info h3{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+.hobby{
+    display: flex;
+    flex-direction: row;
+}
+
+.hobby img{
+    float: left;
+    position: relative;
+    top: 2px;
+}
+
+.hobby h3{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.favorite{
+    display: flex;
+    flex-direction: row;
+}
+
+.favorite img{
+    float: left;
+    position: relative;
+    top: 2px;
+}
+
+.favorite h3{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.info-table table, th, td{
+    width: 30%;
+    border: 1px solid #607EAA;
+}
