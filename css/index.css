@@ -30,7 +30,10 @@ nav a:hover{
 }
 
 .main{
-    padding: 16px;
+    padding-left: 10%;
+    padding-bottom: 15%;
+    padding-right: 10%;
+    padding-top: 2%;
     margin-top: 50px;
     height: 1200px;
 }
@@ -44,7 +47,7 @@ nav a:hover{
     font-size: large;
 }
 
-img{
+/* img{
     border: 10px double #ffff;
     border-radius: 50%;
     display: block;
@@ -52,7 +55,7 @@ img{
     margin-right: auto;
     width: 100%;
     margin-top: 10px;
-}
+} */
 
 .main-header{
     flex: 1;
@@ -61,13 +64,15 @@ img{
 
 .summary{
     border: 5px solid #ffffff;
-    padding: 100px;
+    padding: 50px;
     background-color: #ffffff;
     border-radius: 15px;
     display: flex;
-    align-items:flex-start;
-    justify-content: left;
+    align-items:center;
+    justify-content: center;
     flex-direction: column;
+    margin: auto;
+    margin-bottom: 15px;
 }
 
 .info{
@@ -78,12 +83,13 @@ img{
 .info img{
     float: left;
     position: relative;
-    top: 2px;
+    top:30px;
+    margin-right: 10px;
 }
 
 .info h3{
     font-weight: bold;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 
@@ -95,12 +101,13 @@ img{
 .hobby img{
     float: left;
     position: relative;
-    top: 2px;
+    top:30px;
+    margin-right: 10px;
 }
 
 .hobby h3{
     font-weight: bold;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .favorite{
@@ -111,15 +118,42 @@ img{
 .favorite img{
     float: left;
     position: relative;
-    top: 2px;
+    top:30px;
+    margin-right: 10px;
 }
 
 .favorite h3{
     font-weight: bold;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .info-table table, th, td{
-    width: 30%;
-    border: 1px solid #607EAA;
+    width: 20%;
+    border: 2px solid #607EAA;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
 }
+
+.header-row{
+    background-color: #dae7f8;
+    font-weight: 800;
+}
+
+.header-row2{
+    font-weight:600;
+   
+}
+
+blockquote{
+  display: block;
+  margin-top: 2px;
+ 
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+blockquote p{
+    font-weight:bold ;
+}
+
