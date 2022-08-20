@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #c9dfff;
 }
 
 nav {
@@ -29,8 +30,30 @@ nav a:hover{
 }
 
 .main{
-    padding: 16px;
+    padding-left: 15%;
+    padding-bottom: 15%;
+    padding-right: 15%;
+    padding-top: 2%;
     margin-top: 50px;
-    height: 1500px;
+    height: 500px;
 }
 
+h1{
+ font-size: xx-large;
+ font-style: oblique;
+}
+
+h3{
+ font-size: x-large;
+ font-weight: 500;
+}
+
+h4{
+ font-size: medium;
+ font-weight: 400;
+}
+
+h5{
+    font-size: small;
+    font-weight: 600;
+}
