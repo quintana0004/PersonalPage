@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+   background-image: url('../images/ocean.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+nav {
+    overflow: hidden;
+    background-color: #6b186e;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav a{
+    float: right;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: solid;
+    font-weight: bold;
+    font-size: medium;
+    border-bottom: 2px solid #6b186e;
+}
+
+
+nav a:hover{
+    background: #a860aa;
+    border-bottom: 2px solid #ffffff;
+}
+
+.main{
+    padding-left: 10%;
+    padding-bottom: 15%;
+    padding-right: 10%;
+    padding-top: 2%;
+    margin-top: 50px;
+    height: 1200px;
+}
+
+
+
+.important{
+    margin: 10px;
+    text-align: center;
+    font-style: oblique;
+    font-size: large;
+    color: #ffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* img{
+    border: 10px double #ffff;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 10px;
+} */
+
+.main-header{
+    flex: 1;
+    flex-direction: row;
+}
+
+.summary{
+    border: 5px solid #ffffff;
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+}
+
+/* .info img{
+    float: left;
+    position: relative;
+    top:30px;
+    margin-right: 10px;
+} */
+
+.info h3{
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.info h2{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #6b186e;
+    font-weight: bolder;
+}
+
+
+.hobby{
+    display: flex;
+    flex-direction: row;
+}
+
+/* .hobby img{
+    float: left;
+    position: relative;
+    top:30px;
+    margin-right: 10px;
+} */
+
+.hobby h3{
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hobby h2{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #6b186e;
+    font-weight: bolder;
+}
+
+
+.favorite{
+    display: flex;
+    flex-direction: row;
+}
+
+/* .favorite img{
+    float: left;
+    position: relative;
+    top:30px;
+    margin-right: 10px;
+} */
+
+.favorite h3{
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.favorite h2{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #6b186e;
+    font-weight: bolder;
+}
+
+
+.info-table table, th, td{
+    width: 20%;
+    border: 2px solid #a860aa;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header-row{
+    background-color: #e8cde9;
+    font-weight: 800;
+}
+
+.header-row2{
+    font-weight:600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+blockquote{
+  display: block;
+  margin-top: 2px;
+ 
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+blockquote p{
+    font-weight:bold ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
