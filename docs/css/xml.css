@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-color: #c9dfff;
+}
+
+nav {
+    overflow: hidden;
+    background-color: #1C3879;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav a{
+    float: right;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: solid;
+    font-weight: bold;
+    font-size: medium;
+    border-bottom: 2px solid #1C3879;
+}
+
+
+nav a:hover{
+    background: #607EAA;
+    border-bottom: 2px solid #ffffff;
+}
+
+.main{
+    padding-left: 15%;
+    padding-bottom: 15%;
+    padding-right: 15%;
+    padding-top: 2%;
+    margin-top: 50px;
+    height: 500px;
+}

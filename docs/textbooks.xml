@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="textbook.xsl"?>
+<textbooks>
+    <!--Micro Interfacing Book-->
+    <book1>
+        <title>Arduino Cookbook</title>
+        <author>
+            <first_name>Michael</first_name>
+            <last_name>Margolis</last_name>
+        </author>
+        <publisher>
+            <name>O'Reilly Media Inc.</name>
+            <website>https://www.oreilly.com/</website>
+        </publisher>
+        <year_of_publication>2011</year_of_publication>
+        <ISBN>978-0-596-80247-9</ISBN>
+        <book_website>https://www.oreilly.com/library/view/arduino-cookbook/9781449399368/</book_website>
+        <edition>1st</edition>
+        <cover_type>paperback</cover_type>
+    </book1>
+    <!--Advance Programming Book-->
+    <book2>
+        <title>Java How To Program</title>
+        <author>
+            <first_name>Paul</first_name>
+            <last_name>Deitel</last_name>
+        </author>
+        <publisher>
+            <name>Deitel</name>
+            <website>https://deitel.com/</website>
+        </publisher>
+        <year_of_publication>2015</year_of_publication>
+        <ISBN>978-0-13-380780-6</ISBN>
+        <book_website>https://deitel.com/java-how-to-program-11-e-early-objects-version/</book_website>
+        <edition>10th</edition>
+        <cover_type>paperback</cover_type>
+    </book2>
+    <!--Intenet Programming Book-->
+    <book3>
+        <title>Internet and World Wide Web:  How to Program with CD-ROM BK and CD ROM</title>
+        <author>
+            <first_name>Harvey</first_name>
+            <last_name>Deitel</last_name>
+        </author>
+        <publisher>
+            <name>Deitel</name>
+            <website>https://deitel.com/</website>
+        </publisher>
+        <year_of_publication>2004</year_of_publication>
+        <ISBN>978-0-13-145091-2</ISBN>
+        <book_website>https://www.abebooks.com/9780131450912/Internet-World-Wide-Web-Program-0131450913/plp</book_website>
+        <edition>3rd</edition>
+        <cover_type>paperback</cover_type>
+    </book3>
+    <!--Data Communication Book-->
+    <book4>
+        <title> Data and Computer Communications</title>
+        <author>
+            <first_name>William</first_name>
+            <last_name>Stallings</last_name>
+        </author>
+        <publisher>
+            <name>Prentice Hall</name>
+            <website>https://www.pearson.com/en-us/highered-educators.html</website>
+        </publisher>
+        <year_of_publication>2013</year_of_publication>
+        <ISBN> 978-0133506488</ISBN>
+        <book_website>https://www.pearson.com/en-us/subject-catalog/p/data-and-computer-communications/P200000003353/9780137561704</book_website>
+        <edition>10th</edition>
+        <cover_type>paperback</cover_type>
+    </book4>
+</textbooks>
